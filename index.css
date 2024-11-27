@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.featured-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+}
+
+.intro-content {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+section {
+    padding: 2rem 1rem;
+}
+
+#about {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#about img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin: 1rem 0;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#skills ul li {
+    margin: 0.5rem 0;
+}
+
+#contact {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
